@@ -51,7 +51,7 @@ DB_PORT=3306
     </ul>
     <li><strong>Run Migrations:</strong>
         <pre><code>python manage.py makemigrations</code></pre>
-        <pre><code>python manage.py migrate<code><pre>
+        <pre><code>python manage.py migrate</code></pre>
     </li>
     <li><strong>Start the Server:</strong>
         <pre><code>python manage.py runserver</code></pre>
