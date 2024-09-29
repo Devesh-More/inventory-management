@@ -16,7 +16,7 @@
 <h3>Installation Steps:</h3>
 <ol>
     <li><strong>Clone the Repository:</strong>
-        <pre><code>git clone https://github.com/yourusername/inventory-management.git</code></pre>
+        <pre><code>https://github.com/Devesh-More/inventoty-management.git</code></pre>
     </li>
     <li><strong>Navigate into the Project Directory:</strong>
         <pre><code>cd inventory-management</code></pre>
