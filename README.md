@@ -77,7 +77,7 @@ DB_PORT=3306
 <p>You need to register a user first to use the other features.</p>
 
 <h3>Register a User</h3>
-<p>Endpoint: <code>/register/</code></p>
+<p>Endpoint: <code>/inventory/register/</code></p>
 <p>Method: <code>POST</code></p>
 <p>Request Body:</p>
 <pre><code>
@@ -95,7 +95,7 @@ DB_PORT=3306
 </code></pre>
 
 <h3>Login</h3>
-<p>Endpoint: <code>/login/</code></p>
+<p>Endpoint: <code>/inventory/login/</code></p>
 <p>Method: <code>POST</code></p>
 <p>Request Body:</p>
 <pre><code>
@@ -119,7 +119,7 @@ DB_PORT=3306
 <h2>CRUD Operations for Inventory Items</h2>
 
 <h3>Create an Item</h3>
-<p>Endpoint: <code>/items/</code></p>
+<p>Endpoint: <code>/inventory/items/</code></p>
 <p>Method: <code>POST</code></p>
 <p>Request Body:</p>
 <pre><code>
@@ -141,7 +141,7 @@ DB_PORT=3306
 </code></pre>
 
 <h3>Get All Items</h3>
-<p>Endpoint: <code>/items/</code></p>
+<p>Endpoint: <code>/inventory/items/</code></p>
 <p>Method: <code>GET</code></p>
 <p>Success Response:</p>
 <pre><code>
@@ -158,7 +158,7 @@ DB_PORT=3306
 </code></pre>
 
 <h3>Get Item by ID</h3>
-<p>Endpoint: <code>/items_by_id/&lt;item_id&gt;/</code></p>
+<p>Endpoint: <code>/inventory/items_by_id/&lt;item_id&gt;/</code></p>
 <p>Method: <code>GET</code></p>
 <p>Success Response:</p>
 <pre><code>
@@ -173,7 +173,7 @@ DB_PORT=3306
 </code></pre>
 
 <h3>Update an Item</h3>
-<p>Endpoint: <code>/update_items/&lt;item_id&gt;/</code></p>
+<p>Endpoint: <code>/inventory/update_items/&lt;item_id&gt;/</code></p>
 <p>Method: <code>PUT</code></p>
 <p>Request Body:</p>
 <pre><code>
@@ -195,7 +195,7 @@ DB_PORT=3306
 </code></pre>
 
 <h3>Delete an Item</h3>
-<p>Endpoint: <code>/delete_items/&lt;item_id&gt;/</code></p>
+<p>Endpoint: <code>/inventory/delete_items/&lt;item_id&gt;/</code></p>
 <p>Method: <code>DELETE</code></p>
 <p>Success Response:</p>
 <pre><code>
