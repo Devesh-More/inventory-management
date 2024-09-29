@@ -4,41 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inventory Management System - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f9f9f9;
-            color: #333;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 3px;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 5px;
-            overflow: auto;
-        }
-        ul, ol {
-            margin-left: 20px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
 </head>
 <body>
 
 <h1>Welcome to My Inventory Management System API!</h1>
 
-<p>This is a simple API I built using Django Rest Framework. It helps manage inventory items and includes user registration and login features. Below is a guide on how to set it up and use it.</p>
+<p>This is a simple API built using Django Rest Framework. It helps manage inventory items and includes user registration and login features. Below is a guide on how to set it up and use it.</p>
 
 <h2>Setting Up the Project</h2>
 
